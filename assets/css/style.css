@@ -212,8 +212,8 @@ h1.thin {
     padding-right: 10%;
 }
 
-/*
-.before-after .col-12 div {
+
+.before-after .col-12  {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -225,12 +225,13 @@ h1.thin {
     position: relative;
 }
 
-.before-after .pillar-image {
+.before-after .carousel {
     position: absolute;
-    left: 14%;
-    top: 2%;
+    left: 21.5%;
+    top: 0%;
     z-index: -1;
-}*/
+    width: 58%;
+}
 
 footer {
     background-color: #1A4E8A;
