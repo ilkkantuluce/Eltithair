@@ -182,6 +182,7 @@ h1.thin {
 .list h2 {
     color: white;
     margin-right: -20px;
+    font-weight: bold;
 }
 
 .list h1 {
@@ -250,6 +251,10 @@ footer p {
 }
 
 @media screen and (max-width: 989px) {
+    body {
+        background-image: url("../images/mobile-background.png");
+        background-size: contain;
+    }
     h1 {
         font-size: 30px;
     }
@@ -292,14 +297,13 @@ footer p {
         font-size: 18px;
     }
     .pillar-wrap .text-1 {
-        top: 53%;
+        top: 53.5%;
     }
     .pillar-wrap .text-2 {
-        top: 65.5%;
+        top: 66.5%;
     }
-    
     .pillar-wrap .text-3 {
-        top: 78.3%;
+        top: 79%;
     }
     .list h2 {
         margin-right: -20px;
@@ -321,9 +325,15 @@ footer p {
     }
 }
 
+@media screen and (max-width: 448px) {
+    .products .plus {
+        margin-top: -50px;
+    }
+}
+
 @media screen and (max-width: 380px) {
     .products .plus {
-        margin-top: 00px;
+        margin-top: 0px;
     }
     h1 {
         font-size: 24px;
