@@ -88,7 +88,7 @@ h1.thin {
 
 .pillar-wrap {
     position: relative;
-    top: -105vh;
+    top: -650px;
     z-index: -1;
 }
 
@@ -138,7 +138,7 @@ h1.thin {
 }
 
 .products .plus {
-    margin-top: -250px;
+    margin-top: -320px;
     text-align: center;
 }
 
@@ -196,22 +196,24 @@ h1.thin {
 }
 
 .before-after p{
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 50px;
 }
 
+.before-after .col-12 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*
 .before-after .col-12 div {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 30px;
     width: fit-content;
-}
-
-.before-after .col-12 div img {
-    max-width: 850px;
 }
 
 .before-after .pillar-bg {
@@ -223,7 +225,7 @@ h1.thin {
     left: 14%;
     top: 2%;
     z-index: -1;
-}
+}*/
 
 footer {
     background-color: #1A4E8A;
@@ -235,7 +237,19 @@ footer p {
     margin-bottom: 0px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1366px) {
+    .products .plus {
+        margin-top: -250px;
+    }
+}
+
+@media screen and (max-width: 1197px) {
+    .pillar-wrap {
+        top: -630px;
+    }
+}
+
+@media screen and (max-width: 989px) {
     h1 {
         font-size: 30px;
     }
@@ -249,12 +263,9 @@ footer p {
         font-style: italic;
         font-weight: bold;
     }
-    .btn {
-        max-width: 220px;
-    }
     .pillar-wrap {
         position: relative;
-        top: -72vh;
+        top: -450px;
         z-index: -1;
         overflow: hidden;
         padding: 0px;
@@ -266,7 +277,7 @@ footer p {
         right: -20%;
     }
     .products .plus {
-        margin-top: -20px;
+        margin-top: -120px;
     }
     .products .plus img {
         max-width: 50px;
@@ -275,7 +286,10 @@ footer p {
         left: 18%;
     }
     .pillar-wrap .text h1{
-        font-size: 24px;
+        font-size: 22px;
+    }
+    .pillar-wrap .text p {
+        font-size: 18px;
     }
     .pillar-wrap .text-1 {
         top: 53%;
@@ -299,17 +313,37 @@ footer p {
         display: flex;
         align-items: end;
         justify-content: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .btn img {
+        max-width: 220px !important;
     }
 }
+
 @media screen and (max-width: 380px) {
     .products .plus {
-        margin-top: 50px;
+        margin-top: 00px;
     }
     h1 {
-        font-size: 25px;
+        font-size: 24px;
     }
     .pillar-wrap {
-        top: -56vh;
+        top: -380px;
+    }
+    .pillar-wrap .text h1 {
+        font-size: 16px;
+    }
+    .pillar-wrap .text p {
+        font-size: 14px;
+    }
+    .text-on-box {
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .head-text p {
+        font-size: 14px;
     }
     
 }
