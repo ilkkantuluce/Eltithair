@@ -57,7 +57,8 @@ h1.thin {
 }
 
 .head-text p {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .text-on-box h1{
@@ -66,7 +67,7 @@ h1.thin {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 70px;
+    font-size: 55px;
 }
 
 .text-on-box p {
@@ -87,7 +88,7 @@ h1.thin {
 
 .pillar-wrap {
     position: relative;
-    top: -92vh;
+    top: -105vh;
     z-index: -1;
 }
 
@@ -97,23 +98,32 @@ h1.thin {
 
 .pillar-wrap .text {
     position: absolute;
-    left: 25%;
+    left: 30%;
 }
 
 .pillar-wrap .text h1 {
     color: white;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.pillar-wrap .text p {
+    color: white;
+    margin-bottom: 0px;
+    font-size: 30px;
 }
 
 .pillar-wrap .text-1 {
-    top: 55%;
+    top: 56%;
 }
 
 .pillar-wrap .text-2 {
-    top: 68%;
+    top: 68.5%;
 }
 
 .pillar-wrap .text-3 {
-    top: 80%;
+    top: 81%;
 }
 
 .clear {
@@ -134,6 +144,7 @@ h1.thin {
 
 .products img {
     max-height: 400px;
+    margin: auto;
 }
 
 .products .col-md-5,
@@ -142,6 +153,11 @@ h1.thin {
 }
 
 .products h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.products h2 {
     color: white;
     font-weight: bold;
 }
@@ -159,6 +175,8 @@ h1.thin {
     display: flex;
     align-items: end;
     justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .list h2 {
@@ -169,7 +187,8 @@ h1.thin {
 .list h1 {
     text-align: center;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-weight: 100;
 }
 
 .before-after {
@@ -177,15 +196,22 @@ h1.thin {
 }
 
 .before-after p{
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
 }
 
 .before-after .col-12 div {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     width: fit-content;
+}
+
+.before-after .col-12 div img {
+    max-width: 850px;
 }
 
 .before-after .pillar-bg {
